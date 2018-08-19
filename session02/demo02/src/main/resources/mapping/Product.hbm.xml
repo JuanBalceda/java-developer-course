@@ -52,7 +52,7 @@ Contributor(s):
     </class>
     
     <query name="HQLpricing"><![CDATA[
-	   select product.price from Product product where product.price > 25.0]]>
+	   select product.price from Product product where product.price > 10.0]]>
     </query>   
     <sql-query name="SQLpricing">
         <return-scalar column="price" type="double"/>
