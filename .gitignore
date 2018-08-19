@@ -5,3 +5,8 @@ build.xml
 manifest.mf
 session01/demo01/build/
 dist/
+
+#Session02
+
+session02/demo01/lib
+session02/demo01/target
