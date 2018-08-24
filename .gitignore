@@ -1,11 +1,11 @@
-#Session01
+#Netbeans
 test/
 nbproject/
 build.xml
 manifest.mf
-session01/demo01/build/
+build/
 dist/
 
-#Session02
+#IntelliJ
 lib/
 target/
