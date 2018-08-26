@@ -2,6 +2,7 @@
 Example projects from Java developer course.
 Topics:
 * ORM
-* JPA
+* JPA (Eclipse Link)
 * Hibernate
+* iBatis
 * MyBatis
