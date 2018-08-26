@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap
+        PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+        "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="persona">
+
+	<insert id="registrar" parameterClass="persona">
+		insert into persona
+		(nombres, apellidos, edad)
+		values (#nombres#,#apellidos#,#edad#)
+	</insert>
+
+	<update id="actualizar" parameterClass="persona">
+		update persona set
+		nombres = #nombres#, apellidos = #apellidos#, edad =
+		#edad# where id =
+		#id#
+	</update>
+
+	<delete id="eliminar" parameterClass="long">
+		delete from persona where
+		id = #id#
+	</delete>
+
+	<select id="obtener" resultClass="persona" parameterClass="long">
+		select * from persona where id = #id#
+	</select>
+
+	<select id="listar" resultClass="persona">
+		select * from persona
+	</select>
+
+</sqlMap>
