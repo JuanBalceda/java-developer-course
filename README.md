@@ -6,3 +6,5 @@ Topics:
 * Hibernate
 * iBatis
 * MyBatis
+* Ajax
+* AngularJS
