@@ -2,6 +2,7 @@
 test/
 nbproject/
 build.xml
+nb-configuration.xml
 manifest.mf
 build/
 dist/
