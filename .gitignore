@@ -1,6 +1,7 @@
 #Netbeans
 test/
 nbproject/
+context.xml
 beans.xml
 build.xml
 nb-configuration.xml

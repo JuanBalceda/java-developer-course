@@ -9,4 +9,5 @@ Topics:
 * Ajax
 * AngularJS
 * JSF (https://github.com/JuanBalceda/jpa-spring-jsf)
+* Websocket
 
