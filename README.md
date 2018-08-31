@@ -8,3 +8,5 @@ Topics:
 * MyBatis
 * Ajax
 * AngularJS
+* JSF (https://github.com/JuanBalceda/jpa-spring-jsf)
+

@@ -1,8 +1,10 @@
 #Netbeans
 test/
 nbproject/
+beans.xml
 build.xml
 nb-configuration.xml
+nbactions.xml
 manifest.mf
 build/
 dist/
